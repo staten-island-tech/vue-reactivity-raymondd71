@@ -17,4 +17,4 @@ then in div add
 back in homeviewS
 add import AnimalCard from "../components/AnimalCard..vue"
 Then in template main
-add <AnimalCard v-far="animal in animals" : key="animal.name" :animal= "animal/>
+add <AnimalCard v-for="animal in animals" : key="animal.name" :animal= "animal/>
