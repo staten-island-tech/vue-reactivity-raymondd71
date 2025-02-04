@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>{{ message }}</h1>
+    <h1>{{ title }}</h1>
   </div>
 </template>
 
 <script setup>
 defineProps({
-  message: String,
+  title: String,
 })
 </script>
 

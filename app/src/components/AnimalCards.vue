@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center text-green-500">test</h1>
+    <h1 class="text-center">Track Stuff</h1>
   </div>
 </template>
 

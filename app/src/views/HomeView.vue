@@ -6,7 +6,7 @@ import AnimalCards from '../components/AnimalCards.vue'
 <template>
   <main>
     <TheWelcome />
-    <AnimalCards class="text-blue-500" />
-    <LogIn class="text-red-500" message="I hate black berries" />
+    <AnimalCards class="text-[50px]" />
+    <LogIn class="text-red-500" title="Spikes" />
   </main>
 </template>
