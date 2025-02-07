@@ -1,16 +1,3 @@
-/* const products = [
-  {
-    name: 'Mamba V6',
-    type: ["Spikes",'Distance'],
-    price: '60 '
-  },
-  {
-   name:Pegasus ,
-   type:,
-   price:
-  }
-] */
-
 const trackSpikes = [
   {
     name: 'Nike Zoom Superfly Elite 2',
@@ -104,4 +91,4 @@ const trackSpikes = [
   },
 ]
 
-console.log(trackSpikes)
+export { trackSpikes }
