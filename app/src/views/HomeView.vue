@@ -2,7 +2,7 @@
 import LogIn from '../components/LogIn.vue'
 import AnimalCards from '../components/AnimalCards.vue'
 import SpikeCard from '../components/SpikeCard.vue'
-import trackSpikes from '@/components/products'
+import trackSpikes from '@/components/products' // remove this to fix
 </script>
 
 <template>
