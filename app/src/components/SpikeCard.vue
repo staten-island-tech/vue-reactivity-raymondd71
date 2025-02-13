@@ -6,7 +6,7 @@
     <h2 class="text-lg font-semibold mt-2">{{ spike.name }}</h2>
     <p>Type: {{ props.spike.type }}</p>
     <p class="price">Price: ${{ spike.price }}</p>
-    <button @click="" class="border-2">Add to Cart</button>
+    <button @click="addCart()" class="border-2">Add to Cart</button>
     <!-- remove click for it to work -->
   </div>
 </template>
@@ -19,11 +19,9 @@ const props = defineProps({
   },
 })
 
-function addCart{
-let cart = []
-let totalPrice = 0
-
-};
+function addCart() {
+  console.log('Eat ma bals')
+}
 </script>
 
 <style></style>
