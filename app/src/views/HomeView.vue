@@ -3,6 +3,7 @@ import LogIn from '../components/LogIn.vue'
 import TitleHead from '../components/TitleHead.vue'
 import SpikeCard from '../components/SpikeCard.vue'
 import { trackSpikes } from '@/components/products'
+import { cart } from '@/components/cart'
 </script>
 
 <template>

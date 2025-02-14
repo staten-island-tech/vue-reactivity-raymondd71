@@ -13,14 +13,12 @@
 
 <script setup>
 const props = defineProps({
-  spike: {
-    type: Object,
-    required: true,
-  },
+  spike: Object,
 })
-
+import { cart } from '@/components/cart'
 function addCart() {
-  console.log('Eat ma bals')
+  cart.push(props.spike)
+  console.log(`Eat ma bals ${props.spike.name}`)
 }
 </script>
 
