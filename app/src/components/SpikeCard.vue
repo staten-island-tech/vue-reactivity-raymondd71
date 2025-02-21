@@ -5,7 +5,7 @@
     picture -->
     <h2 class="text-lg font-semibold mt-2">{{ spike.name }}</h2>
     <p>Type: {{ props.spike.type }}</p>
-    <p class="price">Price: ${{ spike.price }}</p>
+    <p>Price: ${{ spike.price }}</p>
     <button @click="addCart()" class="border-2">Add to Cart</button>
     <!-- remove click for it to work -->
   </div>

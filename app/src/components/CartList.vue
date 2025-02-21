@@ -14,12 +14,7 @@ const props = defineProps({
 })
 import { cart } from '@/components/cart'
 function remove() {
-  const index = cart.findIndex((key) => key.name === this.props.spike.id)
-  cart.splice(index, 1) // change this so that it only removes the card that the button is pressed from.-
-
-  /*const target = update.cart.findIndex((key) => key.name === this.product.name);
-
-  update.cart.splice(target, 1); */
+  cart.splice(props.index) // change this so that it only removes the card that the button is pressed from.
 }
 </script>
 
