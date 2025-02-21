@@ -14,7 +14,7 @@ const props = defineProps({
 })
 import { cart } from '@/components/cart'
 function remove() {
-  cart.splice(props.index, 1) // change this so that it only removes the card that the button is pressed from.
+  cart.splice(props.index, 1) // change this so that it only removes the card that the button is pressed from.-
 }
 </script>
 

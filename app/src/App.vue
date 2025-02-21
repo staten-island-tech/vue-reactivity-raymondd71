@@ -1,16 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header class="flex items-center">
-    <nav class="m-auto mt-[2rem]">
-      <RouterLink to="/" class="text-blue-500 p-[2rem]">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
-    <!-- </div> -->
-  </header>
+  <header class="flex items-center"></header>
   <RouterView />
 </template>
 
