@@ -17,6 +17,7 @@ const props = defineProps({
 })
 import { cart } from '@/components/cart'
 function addCart() {
+  props.spike.id = cart.length
   cart.push(props.spike)
   console.log(`${props.spike.name}`)
   console.log(cart)
