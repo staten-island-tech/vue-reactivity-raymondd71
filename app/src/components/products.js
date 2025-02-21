@@ -1,18 +1,21 @@
 const trackSpikes = [
   {
-    name: 'Nike Zoom Superfly Elite 2',
+    //name: 'Nike Zoom Superfly Elite 2',
+    name: '1',
     type: 'Sprint',
     price: 150,
     picture: 'https://img.runningwarehouse.com/watermark/rs.php?path=NZSE2U5-1.jpg&nw=540',
   },
   {
-    name: 'Adidas Adizero Prime SP2',
+    //name: 'Adidas Adizero Prime SP2',
+    name: '2',
     type: 'Sprint',
     price: 180,
     picture: 'https://img.runningwarehouse.com/watermark/rs.php?path=A3PSSU0-1.jpg&nw=540',
   },
   {
-    name: 'Nike Zoom Mambas V6',
+    //name: 'Nike Zoom Mambas V6',
+    name: '3',
     type: 'Distance',
     price: 120,
     picture: 'https://img.runningwarehouse.com/watermark/rs.php?path=NZM6US4-1.jpg',
