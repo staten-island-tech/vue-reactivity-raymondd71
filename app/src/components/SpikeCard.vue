@@ -21,6 +21,7 @@ function addCart() {
   cart.push(props.spike)
   console.log(`${props.spike.name}`)
   console.log(cart)
+  console.log(props.spike.id)
 }
 </script>
 

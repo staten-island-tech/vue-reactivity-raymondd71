@@ -15,6 +15,7 @@ const props = defineProps({
 import { cart } from '@/components/cart'
 function remove() {
   cart.splice(props.id, 1)
+  console.log(cart)
 }
 </script>
 
