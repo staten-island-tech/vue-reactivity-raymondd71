@@ -18,7 +18,8 @@ const props = defineProps({
 import { cart } from '@/components/cart'
 function addCart() {
   cart.push(props.spike)
-  console.log(`Eat ma bals ${props.spike.name}`)
+  console.log(`${props.spike.name}`)
+  console.log(cart)
 }
 </script>
 
