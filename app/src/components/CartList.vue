@@ -3,7 +3,9 @@
     <h2 class="text-lg font-semibold mt-2">{{ spike.name }}</h2>
     <p class="text-[18px] mt-2">Type: {{ spike.type }}</p>
     <p class="text-[18px] mt-2">Price: ${{ spike.price }}</p>
-    <button @click="remove(spike.name)" class="text-[15px] mt-2">Remove</button>
+    <button @click="remove(spike.name)" class="text-[15px] mt-2 border-1 bg-gray-300">
+      Remove
+    </button>
     <!-- Add a button to remove the item -->
   </div>
 </template>
