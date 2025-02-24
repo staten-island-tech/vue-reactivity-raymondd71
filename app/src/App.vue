@@ -5,10 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header class="flex items-center">
-    <nav class="m-auto mt-[2rem]">
-      <RouterLink to="/" class="text-blue-500 p-[2rem]">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
+    <nav class="m-auto mt-[2rem]"></nav>
     <!-- </div> -->
   </header>
   <RouterView />
