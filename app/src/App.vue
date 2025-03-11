@@ -1,11 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import HomeView from './components/HomeView.vue'
 </script>
 
 <template>
   <header class="flex items-center">
-    <nav class="m-auto mt-[2rem]"></nav>
+    <nav class="m-auto mt-[2rem]">
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+    </nav>
     <!-- </div> -->
   </header>
   <RouterView />
